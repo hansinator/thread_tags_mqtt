@@ -1,0 +1,20 @@
+{
+    "thread":{
+        "port":4141
+    },
+    "mqtt":{
+        "host":"10.0.0.31",
+        "port":1883,
+        "keepalive":60,
+        "client_id":"thread_tags",
+        "subscriptions":[ ],
+        "actions"   :[],
+        "publish" :true,
+        "subscribe" :false
+    },
+    "homeassistant":false,
+    "log":{
+        "logfile":"./log/thread_tags(date).log",
+        "level":"Info"
+    }
+}
