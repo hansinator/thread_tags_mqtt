@@ -5,6 +5,8 @@
     "mqtt":{
         "host":"localhost",
         "port":1883,
+        "username":"change",
+        "password":"me",
         "keepalive":60,
         "client_id":"thread_tags",
         "subscriptions":[ ],
