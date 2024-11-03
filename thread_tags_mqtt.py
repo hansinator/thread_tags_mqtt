@@ -27,7 +27,6 @@ def run():
     #will start a separate thread for looping
     clientMQTT = mqtt_start(config,None,True)
 
-    root_path = os.path.join(,".")
     devices = utl.load_yaml(os.path.join(os.path.dirname(__file__),"devices.yaml"))
     friendlyNames = devices["friendly_names"]["thread_tags"]
 
